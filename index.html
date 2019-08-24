@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" ></script> 
     <title>Solitaire</title>
 </head>
 <body>
-    <div class="navbar">Solitaire</div>
-    <footer id="foote">
-        <div class="footer-section">Time</div>
-        <div class="footer-section">score</div>
-        <div class="footer-section">move</div>
-    </footer>
+    <div class="navbar">
+        <div>Solitaire</div>
+        <div class="nav-section">Time</div>
+        <div class="nav-section">score</div>
+        <div class="nav-section">move</div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <div id="back-frontcard">
+        <div id="back">
+            <input type="reset" value="Reset" >
+        </div>
+        <div id="front">
+        </div>
+    </div>    
+    <div id="seven-grid" >
+        <div class="grid" id="card1"></div>
+        <div class="grid" id="card2"></div>
+        <div class="grid" id="card3"> </div>
+        <div class="grid" id="card4"></div>
+        <div class="grid" id="card5"></div>
+        <div class="grid" id="card6"></div>
+        <div class="grid" id="card7"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

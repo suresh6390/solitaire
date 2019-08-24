@@ -3,25 +3,76 @@ body{
     margin: 0;
 }
 .navbar{
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: black;
     color: aliceblue;
     font-size: 30px;
     text-align: center;
 }
-#foote{
-    background-color: white;
-    height: 70px;
-    width: 100%;
-    margin-top: 860px;
- 
-}
-.footer-section {
+
+.nav-section {
     float:left;
     width:7%;
     font-size: 30px;
-    margin-top: 1%;
+    font-family:  serif;
     margin-left: 1%;
 
   }
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+    margin: 40px;
+    justify-content: center;
+    float: right;
+  
+}
+.card{
+    background-color: aliceblue;
+    height: 280px;
+    width: 200px;
+}
+
+
+#back-frontcard{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 30px;
+    float: left;
+    justify-content: center;
+    margin: 30px;
+}
+
+#back{
+    height: 250px;
+    width: 200px;
+    border-color: aliceblue;
+    border: 3px solid;
+    background-color:green;
+    opacity: 0.5;
+   
+    
+}
+#front{
+    height: 250px;
+    width: 200px;
+    border-color: aliceblue;
+    border: 3px solid;
+    background-color:green
+}
+
+#seven-grid{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-content: center;
+    margin-top:400px;
+    margin-left: 15%;
+
+}
+.grid{
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    
+}

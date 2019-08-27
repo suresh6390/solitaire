@@ -1,78 +1,72 @@
-body {
-background-color : #1a7714;
-margin :0;
+*{
+    border-radius:9px;
 }
-.navbar{
-    height: 70px;
-    width: 100%;
-    background-color: black;
-    color: aliceblue;
+body{
+    background: green;
+    margin: 0;
+}
+.container{
+    margin: 0;
+}
+
+.header{
+    width:100%;
+    background: black;  
+    padding: 7px;
+    border-radius:0px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.header li{
+    display: inline;
+    margin: 2%;
     font-size: 30px;
-    text-align: center;
+    color: white;
 }
 
-.nav-section {
-    float:left;
-    width:7%;
-    font-size: 30px;
-    font-family:  serif;
-    margin-left: 1%;
+.top-container{
+    height: 30%;
+    display: flex;
 
-  }
-.card-wrapper{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 30px;
-    margin: 40px;
-    justify-content: center;
-    float: right;
-  
-}
-.card{
-    background-color: aliceblue;
-    height: 280px;
-    width: 200px;
 }
 
-
-#back-frontcard{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 30px;
-    float: left;
-    justify-content: center;
-    margin: 30px;
+.stock-container{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    margin: 20px;
+    margin-left: 100px;
 }
-
-#back{
-    height: 250px;
-    width: 200px;
-    border-color: aliceblue;
-    border: 3px solid;
-    background-color:green;
-    opacity: 0.5;
-   
+.stock{
+    height: 100%;
+    width: 30%;
+    border: lightslategray 3px dotted;
     
-}
-#front{
-    height: 250px;
-    width: 200px;
-    border-color: aliceblue;
-    border: 3px solid;
-    background-color:green
+    margin-left: 60px;
 }
 
-#seven-grid{
-    display: grid;
-    grid-template-columns: repeat(7, auto);
-    align-content: center;
-    margin-top:400px;
-    margin-left: 15%;
-
+.target-container{
+    width:70%;
+    display: flex;
+    margin:20px;
+    height:80%;
 }
-.grid{
-    background-color: white;
-    height: 300px;
-    width: 200px;
-    
+.target{
+    height: 100%;
+    width: 13%;
+    border: lightslategray 3px dotted;
+    margin-left: 40px;
+}
+.bottom-container{
+    height:60%;
+    display: flex;
+    padding-left:200px;
+}
+.col{
+    height:40%;
+    width:9%;
+    border: lightslategray 3px dotted;
+    margin-left: 20px;
+
 }

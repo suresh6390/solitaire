@@ -1,42 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css" >
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" ></script> 
-    <title>Solitaire</title>
-</head>
-<body>
-    <div class="navbar">
-        <div>Solitaire</div>
-        <div class="nav-section">Time</div>
-        <div class="nav-section">score</div>
-        <div class="nav-section">move</div>
-    </div>
-    <div class="card-wrapper">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-    </div>
-    <div id="back-frontcard">
-        <div id="back">
-            <input type="reset" value="Reset" >
-        </div>
-        <div id="front">
-        </div>
-    </div>    
-    <div id="seven-grid" >
-        <div class="grid" id="card1"></div>
-        <div class="grid" id="card2"></div>
-        <div class="grid" id="card3"> </div>
-        <div class="grid" id="card4"></div>
-        <div class="grid" id="card5"></div>
-        <div class="grid" id="card6"></div>
-        <div class="grid" id="card7"></div>
-    </div>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
 
-    <script src="script.js"></script>
-</body>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <ul>
+                    <li>TIME:</li>
+                    <li>SCORE:</li>
+                </ul>
+            </div>
+            <div class="top-container">
+                <div class="stock-container">
+                    <div class="stock"></div>
+                    <div class="stock"></div>
+                </div>
+                <div class="target-container">
+                    <div class="target"></div>
+                    <div class="target"></div>
+                    <div class="target"></div>
+                    <div class="target"></div>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>   
+        </div>
+    </body>
+</html>
